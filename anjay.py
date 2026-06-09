@@ -1,4 +1,3 @@
-#librys   المكتبات
 import os
 import sys
 import time
@@ -19,16 +18,15 @@ print(random.choice(c))
 
 banner = """
 ╔══════════════════════════════════════════════╗
-║              OSINTJAR TOOLS v5.5            ║
+║              JAR TOOLS v5.5            ║
 ╚══════════════════════════════════════════════╝
 """
 
 print(banner)
 
-print('\033[1;31m [+]Follow Me :')
-print('\033[1;33m [1]YOUTUBE  : T.Y.G -Team ' )
-print('\033[1;33m [2]Tiktok   : @cyber-77K ')
-print('\033[1;33m [3]Telegram : @T.Y.G -Team ')
+print('\033[1;31m [+]Follow Gw :')
+print('\033[1;33m [2]Tiktok   : @zargosling ')
+print('\033[1;33m [3]Telegram : @JarzFoslingF ')
 print('\033[1;31m [+]TOOLS: ')
 def main():
     print('')
@@ -166,7 +164,7 @@ elif choose =='5':
 elif choose =='6':
     os.system('git clone https://github.com/M4sc3r4n0/Evil-Droid.git')
     print('#################################')
-    print('please copy and paste here 😗️>>>>>>>>>>>>>>>>..🥰️:')
+    print('copy paste ini ya cuy😗️>>>>>>>>>>>>>>>>..🥰️:')
     print("##################################")
     print('====================================')
     print('cd Evil-Droid')
@@ -253,8 +251,8 @@ elif choose=='13':
 elif choose=='14':
     print(banner)
     import socket
-    target=input('Enter your IP: ')
-    port=input('Enter your Port to Scan :')
+    target=input(Masukin ipnya: ')
+    port=input('mau port berapa? :')
     for p in port :
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.settimeout(1)
